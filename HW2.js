@@ -82,26 +82,25 @@ else if (seasonNumber == 3) {
 //     Результат виводити в консоль.
 
 
-let a = 1
-let b = 3
-let c = 2
+let a = 2
+let b = 1
+let c = 3
 
 //середнє b
-if (a < b && a < c) {
-    if (b > a && b < c) {
+if (b > a && b < c) {
+    if (a < b && a < c) {
         if (c > a && c > b) {
             console.log(b)
         }
     }
 }
-else if (a > b && a > c) {
-    if (b < a && b > c) {
+else if (b < a && b > c) {
+    if (a > b && a > c) {
         if (c < a && c < b) {
             console.log(b)
         }
     }
 }
-
 //середнє a
 else if (a > b && a < c) {
     if (b < a && b < c) {
@@ -117,7 +116,6 @@ else if (a > c && a < b) {
         }
     }
 }
-
 //середнє с
 else if (c > a && c < b) {
     if (b > c && b > a) {
@@ -133,6 +131,7 @@ else if (a > b && a > c) {
         }
     }
 }
+
 
 // Задача №6
 // Задано номер дня тижня.
