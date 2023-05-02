@@ -6,11 +6,11 @@
 //     то виводити в консоль текст "Ми йдемо в інше кафе"
 //     (Змінні типу інтеджер містять кількість продуктів в наявності у вигляді вхідних даних)
 
-let hamburgers = 4
+let hamburgers = 6
 let fries = 1
 let visitors = 4
 
-if (hamburgers == visitors && fries > 0) {
+if (hamburgers >= visitors && fries > 0) {
 console.log('Ми поїли')
 }
 else {
@@ -24,7 +24,7 @@ else {
 //     Результат виводити в консоль.
 
 let price = 1500
-if (price > 1000 && price <= 1900) {
+if (price >= 1000 && price <= 1900) {
 console.log('Ціна в діапазоні')
 }
 else {
@@ -133,7 +133,6 @@ else if (a > b && a > c) {
         }
     }
 }
-
 
 // Задача №6
 // Задано номер дня тижня.
