@@ -1,4 +1,0 @@
-Test file
-Line from develop branch
-Some additional changes from remote
-Test file
